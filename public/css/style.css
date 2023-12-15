@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para el header y navegación */
+.navbar {
+    background-color:rgb(2, 2, 83);
+}
+
+.navbar-nav {
+    margin: 40px;
+    
+}
+
+.nav-link {
+    color: #7fb0e0;
+    margin-right: 40px;
+    padding-right: 50px;
+}
+.nav-link :hover {
+
+    color: rgb(245, 245, 248);
+}
+
+.form-control {
+    margin-right: 10px;
+    
+}
+
+.btn-primary-dark {
+    background-color: #0672dd;
+    /* Aquí puedes usar el color de fondo que desees */
+    border-color: #064f97;
+    /* Cambia el color del borde si es necesario */
+}
+
+.btn-primary-dark:hover {
+    background-color: #648eb8;
+    /* Cambia el color al pasar el cursor por encima, si lo deseas */
+    border-color: #648eb8;
+    /* Borde al pasar el cursor por encima */
+    /* Otros estilos hover si son necesarios */
+}
+
+/* Estilos para el carrusel */
+.carousel-item {
+    height: 560px;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 2em;
+    color: #062444;
+}
+
+p{
+    font-size: 1.2em;
+    color: #062444;
+}
+
+.carousel-caption {
+    top: 1.25rem;
+}
+
+@media (max-width: 992px) {
+    .carousel-item {
+        height: 400px;
+    }
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #ddd;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+
+footer ul {
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+.izq {
+    flex: 1;
+}
+
+.der {
+    flex: 1;
+}
+
+img {
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: #000000;
+}
+
+.politicas {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.politicas nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #062444;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.rrss {
+    margin-top: 20px;
+}
+
+.rrss a {
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+
